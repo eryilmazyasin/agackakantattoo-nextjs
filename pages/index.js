@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Author from '../components/author'
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
             Next.js!
           </a>
         </h1>
+
+        <Author></Author>
+        
 
         <p className="mt-3 text-2xl">
           Get started by editing{' '}
