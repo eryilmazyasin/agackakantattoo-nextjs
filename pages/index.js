@@ -5,7 +5,7 @@ import Author from '../components/Author'
 export default function Home() {
   
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
         <title>Ağaçkakan Tattoo</title>
         <link rel="icon" href="/favicon.png" />
